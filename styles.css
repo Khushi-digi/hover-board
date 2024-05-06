@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    background: rgb(19, 19, 19);
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    justify-content: center;
+}
+.board{
+    /* background: black; */
+    border: 1px solid rgba(128, 128, 128, 0.669);
+    height: 90%;
+    width: 88%;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3px;
+}
+#block{
+    height: 50px;
+    margin: 3px;
+    border-radius: 10px;
+    width: 50px;
+    background: rgb(12, 11, 11);
+    transition: all 0.3s ease;
+}
+/* .block:hover{
+background: red;
+box-shadow: 0px 0px 14px red;
+
+} */
+
+h1{
+    color: white;
+    font-family: colfax;
+    margin-bottom: 10px;
+}
